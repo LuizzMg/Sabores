@@ -1,0 +1,75 @@
+
+#criar_receita{
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 1rem;
+    color: #FFFDF3;
+    background: #3A2312;
+    flex-shrink: 0;
+    border: 0.2rem solid #3A2312;
+    width: 80%;
+    font-size: 1rem;
+}
+
+h3{
+    color: #3A2312;
+    text-align: center;
+    font-size: 2rem;
+}
+
+#formaddRecipe{
+    width: 20rem;
+    border: none;
+    border-radius: 1rem;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-10%, -50%);
+    color: #3A2312;
+    overflow: hidden;
+    background: #FFFDF3;
+    padding: 1rem;
+}
+
+#formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    width: 100%;
+}
+
+.identificador{
+    display: block;
+    width: 80%;
+    text-align: left;
+    margin-top: 0.8rem;
+    margin-bottom: 0.2rem;
+}
+
+.campo_input{
+    border: 0.2rem solid #3A2312;
+    text-align: center;
+}
+
+.item_form_login{
+    width: 80%;
+    border-radius: 1rem;
+    padding: 0.4rem;
+}
+
+.campo_opt{
+   color: #3A2312;
+   background-color: #FFFDF3;
+   border: 1px solid #3A2312;
+}
+
+input::placeholder {
+  color: #3A2312;
+  filter: opacity(0.5);
+}
+
+textarea::placeholder {
+color:#3A2312;
+filter: opacity(0.5);
+}
+

@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color:brown
+}
+
+#div_nomes_emails{
+    background-color: rgba(255, 255, 255, 0.616);
+    width: 30rem;
+    display: flex;
+    justify-content: center;
+    display: grid;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(248, 0, 0);
+}
+
+#text{
+    color: rgb(255, 255, 255);
+    font-size: 4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#tudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: grid;;
+}
+
+#nome_emails{
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+#nome_usuario{
+    background-color:rgba(255, 255, 255, 0.616);
+}
